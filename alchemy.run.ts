@@ -6,6 +6,7 @@ import { R2Bucket, Worker } from "alchemy/cloudflare";
 const app = await alchemy("r2-test");
 
 const bucket = await R2Bucket("test-bucket", {
+  jurisdiction: "eu",
   dev: {
     remote: true,
   }
