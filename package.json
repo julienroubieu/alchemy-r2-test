@@ -10,11 +10,10 @@
     "dev": "alchemy dev"
   },
   "devDependencies": {
-    "alchemy": "0.67.0",
-    "@cloudflare/workers-types": "^4.20250805.0",
-    "miniflare": "^4.20250617.3",
+    "@cloudflare/workers-types": "^4.20251004.0",
     "@types/node": "^24.0.3",
+    "alchemy": "0.70.2",
+    "miniflare": "^4.20251001.0",
     "typescript": "^5.8.3"
-  },
-  "dependencies": {}
+  }
 }
